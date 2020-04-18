@@ -1,0 +1,144 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+  height:100%;
+  
+}
+#navbar{
+  padding-top: 10px;
+}
+nav{
+	background-color: #ffffff;
+}
+
+.navspace{
+  padding: 10px 10px 20px;
+}
+.navbar .nav .navset a{
+  font-size: 1.75rem;
+  color:black;
+  /* border: 1.5px solid black; */
+  padding: 10px;
+  margin: 7px;
+  border-radius: 2px;
+}
+nav .container .navbar-header .brandpad{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0px;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: green;
+}
+.home-content{
+  padding: 150px 45px 0px;
+  font-size:25px;
+}
+/* .ourservices{
+  padding-left: 45px;
+}
+.aboutus{
+  padding-left: 45px;
+}
+
+.foot-content{
+  padding-left: 45px;
+} */
+.foot-content{
+  background-color: #ffffff;	
+  padding: 20px;
+}
+.foot 
+{
+	background-color: #ffffff;		
+}
+.invisible {
+  visibility: hidden !important;
+}
+
+.hidden-xs-up {
+  display: none !important;
+}
+
+.services, .about, .reachus{
+  font-size: 4.5rem;
+}
+
+.aboutus{
+  padding: 45px 0px 75px;
+}
+
+.about-content  {
+  font-size: 2rem;
+}
+h1 .homehead{
+      font-size:20pt;
+}
+h2 .about{
+  color:green;
+}
+
+.service-tag{
+  padding: 25px;
+  font-size: 2.5rem;
+}
+
+ .home {
+  font-size: 2vw;
+} 
+
+ .homehead {
+  font-size: 20pt;
+} 
+
+
+/* mobile */
+@media only screen and (max-width: 991px) {
+  .home {
+    font-size: 20px; 
+  }
+  .foot-content{
+    background-color: #ffffff;	
+    padding: 20px;
+  }
+  .homehead{
+    font-size: 35px;
+  }
+  .image {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bg1-mob.png);
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+}
+/*desktop */
+@media only screen and (min-width: 992px) {
+  .home {
+     font-size: 2vw; 
+  }
+  .foot-content{
+    background-color: #ffffff;	
+    padding: 20px;
+  }
+  .homehead{
+    padding-top: 60px;
+    font-size: 7vw;
+  }
+  .image {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bg1.png);
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .tool
+   {
+	padding:45px;
+   }
+}
+
+
